@@ -37,6 +37,7 @@ public class SingleImageFragment extends DialogFragment implements SingleImagePr
 
         mPresenter = new SingleImagePresenter(this);
 
+
         mSingleImageView = view.findViewById(R.id.image_view_single);
 
         Bundle bundle = getArguments();
